@@ -36,6 +36,7 @@ class UnitestTest(unittest.TestCase):
         time.sleep(10)
         # закрываем браузер после всех манипуляций
         browser.quit()
+    
     def test_unitest2(self):
         link = "http://suninjuly.github.io/registration2.html"
         browser = webdriver.Chrome()
