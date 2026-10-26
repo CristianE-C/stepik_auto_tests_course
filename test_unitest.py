@@ -43,7 +43,6 @@ class UnitestTest(unittest.TestCase):
         browser.get(link)
 
         # Ваш код, который заполняет обязательные поля
-
         browser.find_element(By.XPATH, "//input[@placeholder='Input your first name']").send_keys("Name")
         browser.find_element(By.XPATH, "//input[@placeholder='Input your last name']").send_keys("Last name")
         browser.find_element(By.XPATH, "//input[@placeholder='Input your email']").send_keys("email@mai.com")
